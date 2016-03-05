@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,span,a,img,p,h1,h2,h3,h4,ul,li,ol,dl,dt,dd,input{ margin:0; padding:0; border:0; list-style:none;}
+body{ color:#fff; font-size:12px; font-family:"宋体";}
+
+/*----------------头部--------------------------*/
+#tou{width:100%; height:70px; background:#59BFEB; padding-top:10px; font-family:SimHei;}
+#tou .mingzi{ width:1000px; height:100%; margin:0 auto;}
+#tou .mingzi h1{ height:60px; line-height:60px; padding-left:80px; float:left; background:url(../images/logo.png) no-repeat 0 center;}
+#tou .mingzi p{ height:33px; background:url(../images/dianhua.png) 0 0 no-repeat; margin-top:12px; padding-left:50px; float:right; font-size:20px; font-family:Arial, Helvetica, sans-serif; line-height:35px;}
+/*----------------公司简介行--------------------------*/
+#one{width:1000px; height:278px; margin:10px auto;}
+#one .jianjie{width:441px; height:253px; margin-right:12px; padding:25px 26px 0; background:#98CB46; line-height:22px; text-indent:2em; float:left;}
+h2{ font-family:"宋体"; font-size:20px; text-align:center; margin-bottom:15px;}
+h4{ font-family:"宋体"; font-size:12px; line-height:22px;}
+#one .nie2,#one .nie3{width:115px; height:100%; float:left; margin-right:11px;}
+#one .nie2 .shang,.nie2 .xia{width:100%; height:134px; background:url(../images/mi_1.png) no-repeat; display:block;}
+#one .nie2 .xia{ margin-top:10px; background:url(../images/mi_2.png) no-repeat;}
+#one .nie3 .shang,.nie3 .xia{width:100%; height:134px; background:url(../images/mi_3.png) no-repeat; display:block;}
+#one .nie3 .xia{ margin-top:10px; background:url(../images/mi_4.png) no-repeat;}
+#one .pinzhi{width:222px; height:252px; background:#5FBDEC; line-height:22px; padding:26px 10px 0; float:right;}
+#one .pinzhi .shuoming{ margin-bottom:20px;}
+.neirong_jiacu{ font-family:"宋体"; font-size:12px; line-height:22px; font-weight:bold;}
+/*----------------我们的产品行--------------------------*/
+#chanpin{width:1000px; height:132px; margin:10px auto;}
+#chanpinhang li{width:115px; height:100%; background:blue; float:left; display:inline-block; margin-right:11px;}
+#chanpinhang{width:631px; height:100%; float:left;}
+#chanpinhang .lan{ background:url(../images/tian_2.png) no-repeat;}
+#chanpinhang .shenhui{ background:url(../images/gu.png) no-repeat;}
+#chanpinhang .qianhui{ background:url(../images/tian_3.png) no-repeat;}
+#chanpinhang .daogu{ background:url(../images/gu.png) no-repeat;}
+#chanpinhang .cj_1{ background:url(../images/chejian_1.png) no-repeat;}
+#chanpinhang .chanpin{width:212px; height:122px; background:#97CB45; line-height:22px; padding:10px 15px 0;}
+#chanpinhang .cj_2{ margin-right:0; float:right; background:url(../images/chejian_2.png) no-repeat;}
+.neirong_jiacu{ font-family:"宋体"; font-size:12px; line-height:22px; font-weight:bold;}
+.chanpin h2{ margin-bottom:5px;}
+/*----------------底部--------------------------*/
+#di{width:1000px; height:133px; background:#191919; margin:0 auto;}
+.weibo{width:115px; height:21px; background:url(../images/weibo.png) no-repeat 8px 8px; text-align:center; padding-top:112px; float:left; margin-left:126px;}
+.taobao{width:115px; height:21px; background:url(../images/taobao.png) no-repeat 8px 8px; text-align:center; padding-top:112px; float:left; margin-left:20px;}
+.lianxi{width:500px; height:47px; float:left; font-size:14px; line-height:20px; padding-top:15px; margin-left:50px;}
+a:link { color:#dd3409;text-decoration:none; }
+a:visited { color:#9f301d;text-decoration:none; }
+a:visited:hover { color:#9f301d;text-decoration:underline; }
+a:hover { color:#dd3409;text-decoration:underline; }
+a:active { color:#ff3300;text-decoration:underline;}
+/*----------------产品图轮播--------------------------*/
+.all{ width:367px; height:130px; border:1px solid #C1C1C1; overflow:hidden; position:relative; float:right;}
+.all ul{ width:861px; position:absolute; left:0; top:0;}
+.all li{ float:left; cursor:pointer;}
+
+/*----------------车间图轮播--------------------------*/
+.chejiantu{ width:1000px; overflow:hidden; margin:0 auto ; height:276px; margin-bottom:10px;}
+.chejiantu ul{ width:10000px; height:276px; overflow:hidden;}
+.chejiantu li{ width:200px; height:276px; float:left; cursor:pointer; background:url(../images/01.jpg);}
+
+
+
+
